@@ -16,6 +16,10 @@ public class PersonaDaoJdbcImpl implements PersonaDao {
 	public static PersonaDao getInstance() {
 		return instance;
 	}
+	
+	private PersonaDaoJdbcImpl() {
+		
+	}
 
 	@Override
 	public void insert(Persona persona) throws PersistenceException {

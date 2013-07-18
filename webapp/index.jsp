@@ -11,7 +11,7 @@
 	<div class="alert">
 		${message}
 	</div>
-	<form action="login/auth.do" class="form-horizontal">
+	<form action="/aaarrgh/login/auth.do" class="form-horizontal">
 		<div class="control-group">
 			<label class="control-label" for="inputUsername">Nombre de usuario</label>
 			<div class="controls">
